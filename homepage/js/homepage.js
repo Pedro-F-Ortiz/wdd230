@@ -1,8 +1,9 @@
 let date = new Date();
+
 let year = date.getFullYear();
-document.querySelector('.year').textContent = year;
+document.querySelector(".year").textContent = year;
 
 let currentDate = document.lastModified;
-document.querySelector("updated").textContent = currentDate;
+document.querySelector(".time").textContent = currentDate;
 
 
