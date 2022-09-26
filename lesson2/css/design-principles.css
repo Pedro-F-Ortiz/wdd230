@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&display=swap');
+
+#content {
+    background-color: white;
+}
+
+/* CSS for header */
+header {
+    background-color: rgb(10,33,50);
+    margin: 0 auto;
+    padding: 10px;
+    margin: 15px ;
+}
+header h1 {
+    font-family: "Cormorant";
+    color: rgb(255,255,255);
+    text-align: center;
+}
+header p {
+    font-family: "Montserrat";
+    font-size: x-large;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+/* CSS for main */
+#main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#tab1 {
+    background-color: rgb(238,238,238);
+    margin: 10px;
+    border: 3px solid black;
+}
+#tab2 {
+    background-color: rgb(238,238,238);
+    margin: 10px;
+    border: 3px solid black;
+}
+#tab3 {
+    background-color: rgb(238,238,238);
+    margin: 10px;
+    border: 3px solid black;
+}
+h2 {
+    background-color: rgb(58,73,88);
+    font-family: "Cormorant";
+    color: rgb(255,255,255);
+}
+p {
+    font-family: "Montserrat";
+    margin: 10px;
+    text-align: left;
+}
+a {
+    font-family: "Montserrat";
+    margin: 10px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 85%;
+    padding: 10px;
+}
+
+
+
+
+/* CSS for footer */
+footer {
+    background-color: rgb(10,33,50);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin: 15px ;
+}
+footer p {
+    font-family: "Montserrat";
+    font-size: x-large;
+    color: rgb(255,255,255);
+    text-align: center;
+}
