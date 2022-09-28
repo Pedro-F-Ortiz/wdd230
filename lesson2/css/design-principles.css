@@ -25,7 +25,7 @@ header p {
 /* CSS for main */
 #main-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
 }
 #tab1 {
     background-color: rgb(238,238,238);
