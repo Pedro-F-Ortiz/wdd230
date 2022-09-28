@@ -1,8 +1,7 @@
+
+/* Heading font: Cormorant. Text font: Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&display=swap');
 
-#content {
-    background-color: white;
-}
 
 /* CSS for header */
 header {
@@ -27,17 +26,9 @@ header p {
     display: grid;
     grid-template-columns: 1fr;
 }
-#tab1 {
-    background-color: rgb(238,238,238);
-    margin: 10px;
-    border: 3px solid black;
-}
-#tab2 {
-    background-color: rgb(238,238,238);
-    margin: 10px;
-    border: 3px solid black;
-}
-#tab3 {
+#tab1, #tab2, #tab3 {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(238,238,238);
     margin: 10px;
     border: 3px solid black;
@@ -82,3 +73,4 @@ footer p {
     color: rgb(255,255,255);
     text-align: center;
 }
+
