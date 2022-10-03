@@ -1,0 +1,23 @@
+@media screen and (min-width: 650px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    #index {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #target-audience {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #color-scheme {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #typography {
+        grid-column: 2;
+        grid-row: 3;
+    }
+}

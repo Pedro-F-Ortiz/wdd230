@@ -1,1 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+#content {
+    background-color: #F2F6D0;
+}
+
+/* Header CSS */
+header {
+    background-color: #D0E1D4;
+    align-items: center;
+    padding: 10px;
+}
+h1 {
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    font-family: "Robot", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 35px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+/* Index CSS */
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#index, #target-audience, #color-scheme, #typography {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D2B6;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid black;
+}
+#logo img {
+    display: block;
+    border: 3px solid black;
+    padding: 10px;
+}
+.social {
+    display: flex;
+    border: 0px solid black;
+}
+
+h2 {
+    font-family: "lora", Arial, Helvetica, sans-serif;
+    margin: 3px;
+}
+p {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.colors img {
+    display: block;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: #D0E1D4;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
