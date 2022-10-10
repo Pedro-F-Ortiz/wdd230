@@ -11,7 +11,7 @@ let currentDate = document.lastModified;
 document.querySelector(".time").textContent = currentDate;
 
 // Nav Button js
-hamburgerBtn = document.querySelector("menu-btn");
+hamburgerBtn = document.querySelector("#menu-btn");
 
 hamburgerBtn.addEventListener("click", ()=> {
     navLinks = document.querySelectorAll(".links"); 

@@ -53,6 +53,7 @@ nav ul li a {
     font-family: "Roboto" Arial, Helvetica, sans-serif;
     font-size: large;
     text-decoration: none;
+    color: black;
 }
 .show-nav {
     display: block;
