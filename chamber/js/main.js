@@ -20,3 +20,12 @@ hamburgerBtn.addEventListener("click", ()=> {
     })
 })
 
+// Weekly message
+let currentDay = date.getDay()
+if (currentDay == 1 || currentDay == 2){
+    document.querySelector("#weekly-msg").style.display= "block";
+}
+else {
+    document.querySelector("#weekly-msg").style.display = "none";
+} 
+

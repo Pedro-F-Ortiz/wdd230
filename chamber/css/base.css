@@ -117,7 +117,11 @@ h2 {
     text-align: center;
     text-shadow: 2px 2px 5px black;
 }
-
+#event-box a {
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 2px 2px 5px black;
+}
 h3 {
     font-family: "lora";
     font-style: oblique;
@@ -154,6 +158,38 @@ p {
 /* Spotlights */
 #spotlight1, #spotlight2, #spotlight3{
     text-align: center;
+}
+
+/* Center Hero Image */
+#hero-box {
+    position: relative;
+    overflow: hidden;
+}
+#hero-box img {
+    height: 100%;
+    overflow: hidden;
+}
+#hero-box h1 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 5px;
+    max-width: 80%;
+    border-radius: 2px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 70px;
+}
+#hero-box button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(66, 146, 63);
+    color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 50px;
+    border: 3px solid black;
 }
 
 /* Footer css */
