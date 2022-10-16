@@ -5,6 +5,7 @@
 }
 header {
     background-color: #D0E1D4;
+    padding: 40px;
 }
 nav {
     display: flex;
@@ -30,6 +31,11 @@ nav {
 #nav-links {
     width: 100%;
 }
+#nav-links a:hover {
+    background-color: #F2F6D0;
+    border: 3px solid red;
+}
+
 #social {
     padding: 0 50px;
     border-radius: 5px;
@@ -51,7 +57,7 @@ nav ul li a {
     padding: 30px 0;
     width: 100%;
     font-family: "Roboto" Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: x-large;
     text-decoration: none;
     color: black;
 }
@@ -64,8 +70,19 @@ nav ul li a {
     background-color: #D9D2B6;
     border: 3px solid black;
     font-family: "Roboto", Arial Helvetica sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
+#weekly-msg {
+    margin: 15px;
+    border: 3px solid black;
+    padding: 25px;
+    background-color: #D9D2B6;
+    font-family: "Roboto", Arial Helvetica sans-serif;
+    font-size: x-large;
+    animation: blink 2s ease-in-out infinite;}@keyframes blink 
+    {0% {opacity: 0.3;}25% {opacity: 0.6;}50% {opacity: 1.0;}75% {opacity: 0.6;}100% {opacity: 0.3}
+}
+
 
 /* Main CSS */
 #main-grid {
@@ -79,6 +96,7 @@ nav ul li a {
     border: 3px solid black;
     padding: 10px;
     gap: 10px;
+    background-color: #D9D2B6;
 }
 #spotlight-grid {
     display: flex;
@@ -92,6 +110,55 @@ nav ul li a {
 }
 h2 {
     font-family: "lora";
+}
+.glow {
+    font-size: 35px;
+    color: red;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px lavender, 0 0 40px lavender, 0 0 50px lavender, 0 0 60px lavender, 0 0 70px lavender;
+    }
+  }
+
+h3 {
+    font-family: "lora";
+    font-style: oblique;
+    text-align: center;
+    font-size: x-large;
+}
+p {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: x-large;
+}
+/* Weather box */
+#fahrenheit {
+    font-size: 70px;
+    text-align: center;
+}
+#todays-weather, p1 {
+    text-align: right;
+    font-size: xx-large;
+}
+/* Join box */
+#join { 
+    display: flex;
+    background-color: rgb(66, 146, 63);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 50px;
+    border: 3px solid black;
+}
+
+/* Spotlights */
+#spotlight1, #spotlight2, #spotlight3{
+    text-align: center;
 }
 
 /* Footer css */
