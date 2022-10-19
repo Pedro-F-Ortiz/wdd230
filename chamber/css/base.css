@@ -137,12 +137,8 @@ p {
     font-size: x-large;
 }
 /* Weather box */
-#fahrenheit {
-    font-size: 70px;
+#todays-weather h3 {
     text-align: center;
-}
-#todays-weather, p1 {
-    text-align: right;
     font-size: xx-large;
 }
 /* Join box */
@@ -170,7 +166,9 @@ p {
 }
 #hero-box img {
     height: 100%;
+    width: 100%;
     overflow: hidden;
+    object-fit: cover;
 }
 #hero-box h1 {
     position: absolute;
