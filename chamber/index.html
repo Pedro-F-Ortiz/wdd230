@@ -12,14 +12,16 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico"> 
+
     <script defer src="js/main.js"></script>
+    <script defer src="js/windchill.js"></script>
 
 </head>
 <body id="content">
     <header>
         <nav>
             <div id="logo">
-                <img id="logo-img" src="images/logo.png" alt="Conroe Chamber of Commerce Logo">
+                <img id="logo-img" src="images/logo.webp" alt="Conroe Chamber of Commerce Logo">
             </div>
             <ul id="nav-links">
                 <li class="links"><a href="#">Discover</a></li>
@@ -56,14 +58,15 @@
             
             <section id="weather-box" class="container">
                 <h2 class="glow">Weather</h2>
-                <div>
-                    <img src="images/weather.jpg" alt="Weather icon"> <p><span>50</span> &#8457;</p>
-                </div>
                 <div id="todays-weather">
+                    <img src="images/weather.jpg" alt="Weather icon"> 
+                    <p><span id="temp">49</span> &#8457;</p>
+                </div>
+                <div>
                     <h3>Clear Skies</h3>
                     <hr style="height:3px;border-width:0;background-color:black">
-                    <p>Wind Speed: 2.5 km/h</p>
-                    <p>Wind Chill: N/A</p>    
+                    <p>Wind Speed: <span id="wind-speed">4</span> km/h</p>
+                    <p>Wind Chill: <span id="wind-chill">N/A</span></p>    
                 </div>
 
             </section>
@@ -72,7 +75,12 @@
                     <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
             </section>
             <section id="hero-box" class="container">
-                <img src="images/wdd230-org_large.jpg" alt="Lake Conroe Cove">
+                <picture>
+                    <source media="(min-width:1250px)" srcset="images/wdd230-org_large.jpg">
+                    <source media="(min-width:650px)" srcset="images/wdd230-org_medium.jpg">
+                    <img src="images/wdd230-org_small.jpg" alt="hero image small size">
+                </picture>
+                <!-- <img src="images/wdd230-org_large.jpg" alt="Lake Conroe Cove"> -->
                 <h1>Welcome to Conroe, Texas!</h1>
                 <button>Join the Chamber</button>
             </section>
@@ -113,7 +121,7 @@
     <footer>
         <div id="footer-grid">
             <div id="footer-img">
-                <img id="logo-img" src="images/logo.png" alt="Conroe Chamber of Commerce Logo">                   
+                <img id="logo-img" src="images/logo.webp" alt="Conroe Chamber of Commerce Logo">                   
             </div>
             <div id="footer-text">
                 <p>Address: 105 West Main, Conroe, TX. 77489</p>

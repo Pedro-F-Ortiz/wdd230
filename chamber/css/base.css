@@ -126,10 +126,10 @@ h2 {
     text-shadow: 2px 2px 5px black;
 }
 h3 {
-    font-family: "lora";
+    font-family: "lora", Arial, Helvetica, sans-serif;
     font-style: oblique;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
 }
 p {
     font-family: "Roboto";
@@ -137,10 +137,10 @@ p {
     font-size: x-large;
 }
 /* Weather box */
-#todays-weather h3 {
-    text-align: center;
-    font-size: xx-large;
-}
+/* #weather-box {
+    align-items: center;
+} */
+
 /* Join box */
 #join { 
     display: flex;
