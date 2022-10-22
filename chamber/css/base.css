@@ -116,9 +116,9 @@ h2 {
 }
 .glow {
     font-size: 35px;
-    color: red;
+    color: black;
     text-align: center;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px red;
 }
 #event-box a {
     text-decoration: none;
