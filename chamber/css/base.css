@@ -122,8 +122,8 @@ h2 {
 }
 #event-box a {
     text-decoration: none;
-    color: yellow;
-    text-shadow: 2px 2px 5px black;
+    color: black;
+    text-shadow: 2px 2px 5px red;
 }
 h3 {
     font-family: "lora", Arial, Helvetica, sans-serif;
@@ -177,8 +177,8 @@ p {
     padding: 5px;
     max-width: 80%;
     border-radius: 2px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
+    color: black;
+    text-shadow: 2px 2px 5px red;
     font-size: 70px;
 }
 #hero-box button {
