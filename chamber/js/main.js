@@ -29,3 +29,6 @@ else {
     document.querySelector("#weekly-msg").style.display = "none";
 } 
 
+
+// Last visited time stamp
+
