@@ -67,7 +67,7 @@ else {
 
 function setStyles() {
     let prevDate = localStorage.getItem('lastvisit');
-    let currDate = new Date('2022-10-31');
+    let currDate = new Date('2022-10-28');
 
     let difference = currDate - prevDate;
         console.log(difference);

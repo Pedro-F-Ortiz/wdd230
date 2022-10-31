@@ -6,19 +6,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discovery Page</title>
 
-    <meta name="description" content="Week 3 Chamber of Commerce">
+    <meta name="description" content="Week 7 Discovery Page">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico"> 
 
-    <h1></h1>
     <script defer src="js/main.js"></script>
+    
 </head>
 
-<body>
-    
-</body>
+<body id="content">
+    <header>
+        <nav>
+            <div id="logo">
+                <img class="logo-img" src="images/logo.webp" alt="Conroe Chamber of Commerce Logo">
+            </div>
+            <ul id="nav-links">
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="#">Directory</a></li>
+                <li class="links"><a href="#">Join</a></li>
+                <li class="links"><a href="#">Contact</a></li>
+            </ul>
+            <div id="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon" style="width:64px;height:64px;">
+                </a>
+            </div>
+            <div id="date">
+                <!-- Time goes here -->
+            </div>
+            <button id="menu-btn">&#9776;</button>
+            <div id="weekly-msg">
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 P.M.</p>
+            </div>
+        </nav>       
+    </header>
 
+    <main>
+        <div id="discovery-grid"> 
+            <div class="discovery-container">
+                <img src="images/discoveryimg/downtown_attractions.jpg" alt="image of downtown Conroe">
+                <h1>Down Town Conroe</h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Many wonderful attractions in the downtown of old Conroe with plenty of restaurants, pubs, classic theatre. Enjoy a wonderful time out with the family any day of the week or weekend events. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/golf.jpg" alt="golf course">
+                <h1>Lake side golf course</h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    You love to golf? Enjoy a wonderful summer day or evening in our lake side 20 hole golf course. With stunning views and beautiful Texas weather, good memories await.
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/heb.jpg" alt="HEB Texas chain grocery store">
+                <h1>HEB Texas Chain grocery stores</h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Need groceries? Look no further, visit one of the many location's of the Texas local grocery stores HEB where you are sure to find a bargain and fair priced items. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/houston_medical_center.jpg" alt="Houston's medical center">
+                <h1>
+                    Houston Texas Medical Center
+                </h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Fear not for your health, Houston is just a hop away and in the heart of its downtown you will find a medical center with all the major hospitals. Conroe itself with 3 hospital branches ready to host patients in need. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/astros.jpg" alt="Houston Zoo">
+                <h1>
+                    Minute Maid Baseball Park
+                </h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Minute Maid Park is the home of the Houston Astros baseball team ready to host games in their stadium. With a retractable roof, enjoy a nice cool day and beautiful summer skies or closed for the winter or rainy days. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/topgolf.jpg" alt="Conroe Cove Housing Developments">
+                <h1>
+                    TopGolf
+                </h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Visit Conroe's newest outdoor golf driving range at TopGolf where family fun awaits. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/naturetrails.jpg" alt="Conroe Nature Trails">
+                <h1>
+                    Conroe's nature Trails
+                </h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Enjoy one of many nature trails with ponds or lake side views that conroe has to offer. Wild life is sure to be spotted year round in any of the nature trails Conroe has to offer. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/parks.jpg" alt="Conroe Parks">
+                <h1>
+                    Community Parks 
+                </h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Conroe is home to many parks within the community or public parks ready to provide families with safe gathering pavilions to host outdoor parties and family friendly events. 
+                </p>
+            </div>
+            <div class="discovery-container">
+                <img src="images/discoveryimg/waterpark.jpg" alt="Conroe Water Park">
+                <h1>
+                    Typhoon Water Park
+                </h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <p>
+                    Summer time in Texas gets really hot so come enjoy a refreshing day at Conroe's finest water park, Typhoon Texas.
+                </p>
+            </div>
+        </div>
+        <h3>Days since last visited: <span id='diff'></span></h3>
+    </main>
+
+    <footer>
+        <div id="footer-grid">
+            
+            <div id="footer-img">
+                <img class="logo-img" src="images/logo.webp" alt="Conroe Chamber of Commerce Logo">                   
+            </div>
+            <div id="footer-text">
+                <p>Address: 105 West Main, Conroe, TX. 77489</p>
+                <p>Call Us Today: 936-123-4560 | <a href="https://www.conroecitychambers.com">www.ConroeCityChambers.com</a></p>
+                <div>
+                    <p id="copyright">&copy; <span class="year"></span> Conroe Chamber of Commerce | Pedro Ortiz | WDD 230 Project</p>
+                    <!-- <h3>Days since last visited: <span id='diff'></span></h3> -->
+                </div>
+            </div>
+            <div>
+                <a href="https://goo.gl/maps/DDR2tYWu5dQKgM6k8"> <img src="images/googlemaps.jpg" alt="Google Maps icon"></a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
