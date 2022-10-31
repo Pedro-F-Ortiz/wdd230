@@ -59,7 +59,7 @@ console.log(visitDate);
 // Time stamp of last visited 
 if (!localStorage.getItem('lastvisit')) {
     localStorage.setItem('lastvisit', Date.now());
-    document.getElementById('diff').textContent ='This is your 1st visit';
+    document.getElementById('diffr').textContent ='This is your 1st visit';
 }
 else {
     setStyles();
@@ -67,7 +67,7 @@ else {
 
 function setStyles() {
     let prevDate = localStorage.getItem('lastvisit');
-    let currDate = new Date('2022-10-28');
+    let currDate = new Date('2022-10-31');
 
     let difference = currDate - prevDate;
         console.log(difference);
