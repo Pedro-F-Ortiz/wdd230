@@ -4,19 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Join Page</title>
+
+    <meta name="description" content="Week 8 Join Page">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico"> 
+
+    <script defer src="js/main.js"></script>
+    
 </head>
+
 <body>
-    <form action="get" action="thankyou.html">
-        <label for="fname">First Name*:</label>
-        <input type="text" name="firstname" id="fname" required>
+    <header>
+        <nav>
+            <div id="logo">
+                <img class="logo-img" src="images/logo.webp" alt="Conroe Chamber of Commerce Logo">
+            </div>
+            <ul id="nav-links">
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="#">Directory</a></li>
+                <li class="links"><a href="discover.html">Discovery</a></li>
+                <li class="links"><a href="#">Contact</a></li>
+            </ul>
+            <div id="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon" style="width:64px;height:64px;">
+                </a>
+            </div>
+            <div id="date">
+                <!-- Time goes here -->
+            </div>
+            <button id="menu-btn">&#9776;</button>
+            <!-- <div id="weekly-msg">
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 P.M.</p>
+            </div> -->
+        </nav>       
+    </header>
 
-        <label for="lname">Last Name*:</label>
-        <input type="text" name="lastname" id="lname" required>
+    <main>
+        <br>
+    </main>
 
-        <label for="title">Business Position Title*:</label>
-        <input required id="title" name="title" type="text">
-    </form>
+    <footer>
+        <div id="footer-grid">
+            
+            <div id="footer-img">
+                <img class="logo-img" src="images/logo.webp" alt="Conroe Chamber of Commerce Logo">                   
+            </div>
+            <div id="footer-text">
+                <p>Address: 105 West Main, Conroe, TX. 77489</p>
+                <p>Call Us Today: 936-123-4560 | <a href="https://www.conroecitychambers.com">www.ConroeCityChambers.com</a></p>
+                <div>
+                    <p id="copyright">&copy; <span class="year"></span> Conroe Chamber of Commerce | Pedro Ortiz | WDD 230 Join Project</p>
+                </div>
+            </div>
+            <div>
+                <a href="https://goo.gl/maps/DDR2tYWu5dQKgM6k8"> <img src="images/googlemaps.jpg" alt="Google Maps icon"></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
