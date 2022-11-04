@@ -48,7 +48,54 @@
     </header>
 
     <main>
-        <br>
+        <form action="get" action="thankyou.html">
+            <label for="fname">First Name*:</label>
+            <input type="text" name="firstname" id="fname" required>
+
+            <label for="lname">Last Name*:</label>
+            <input type="text" name="lastname" id="lname" required>
+
+            <label for="title">Business Position Title* (Only letters, spaces and dashes and at least 7 characters):</label>
+            <input type="text" name="title" required-id="title" pattern="[- A-Za-z]+" minlength="7">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Cell Number *:</label>
+            <input type="tel" name="cell" id="phone">
+
+            <label id="member">Enter Your Membership </label>
+            <div id="radio">
+                <div class="radio">
+                    <input type="radio" id="one" name="mlevel" value="level1">
+                    <label for="one">NP</label>
+                </div>
+                
+                <div class="radio">
+                    <input type="radio" id="two" name="mlevel" value="level2">
+                    <label for="two">Bronze</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="three" name="mlevel" value="level3">
+                    <label for="three">Silver</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="four" name="mlevel" value="level4">
+                    <label for="four">Silver</label>                       
+                </div>
+            </div>
+
+            <label for="message">Business description</label>
+            <textarea name="" id="message" placeholder="your biz description here"> </textarea>
+            
+            <input id="date" type="hidden" name="todaydate">
+
+            <input type="submit" value="Join the Chamber">
+    </form>
+
+
     </main>
 
     <footer>
