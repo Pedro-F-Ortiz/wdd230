@@ -91,4 +91,21 @@
     gap: 15px;
     margin: 20px;
 }
+#membership-container ul li {
+    padding: 5px 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: black;
+}
+#message {
+    padding: 5px 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: black;
+}
+.main-content p {
+    font-size: xx-large;
+}
+
+
 }
