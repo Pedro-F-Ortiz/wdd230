@@ -66,7 +66,7 @@
                 <input type="text" name="business" id="business" required>
 
                 <label for="title">Business Position Title* (Only letters, spaces and dashes and at least 7 characters):</label>
-                <input type="text" name="title" required-id="title" pattern="[- A-Za-z]+" minlength="7">
+                <input type="text" name="title" id="title" pattern="[- A-Za-z]+" minlength="7">
 
                 <label id="member">Select Your Membership: </label>
                 <div id="radio">
@@ -92,11 +92,11 @@
                 </div>
 
                 <label for="message">Business description</label>
-                <textarea name="" id="message" placeholder="your business description here"></textarea>
+                <textarea name="message" id="message" placeholder="your business description here"></textarea>
 
-                <input id="date" type="hidden" name="todaydate">
+                <input id="form-date" type="hidden" name="todaydate">
 
-                <input type="submit" value="Join the Chamber" href="thankyou.html">
+                <input type="submit" value="Join the Chamber">
             </form>
 
             <div id="membership-container">
