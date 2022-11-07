@@ -20,9 +20,13 @@ getProphets(requestURL);
 function displayProphets(item) {
     let card = document.createElement("section");
     let h2 = document.createElement("h2");
+    let image = document.createElement("img")
 
     h2.textContent = item.name + " " + item.lastname; 
+    lastname;
+    img.setAttribute("src", item.imageurl);
 
     card.appendChild(h2);
+    card.appendChild(img);
     document.querySelector(".cards").appendChild(card);
 }
