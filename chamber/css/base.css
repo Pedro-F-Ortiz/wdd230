@@ -112,6 +112,11 @@ nav ul li a {
     display: none;
 }
 
+h1 {
+    font-family: "lora";
+    font-size: 2em;
+    text-align: center;
+}
 h2 {
     font-family: "lora";
     font-size: 2em;
