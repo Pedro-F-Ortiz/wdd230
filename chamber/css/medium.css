@@ -41,7 +41,7 @@
 
 /* Discovery Page */
 #discovery-grid {
-    display: flexbox;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     margin: 20px;
@@ -49,5 +49,13 @@
 .discovery-container img:hover {
     background-color: #F2F6D0;
     border: 3px solid red;
+}
+
+/* Join Page */
+#join-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 20px;
 }
 }

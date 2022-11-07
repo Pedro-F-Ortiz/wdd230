@@ -111,8 +111,10 @@ nav ul li a {
 #join-box {
     display: none;
 }
+
 h2 {
     font-family: "lora";
+    font-size: 2em;
 }
 .glow {
     font-size: 35px;
@@ -233,7 +235,6 @@ p {
     padding: 10px;
     gap: 10px;
     background-color: #D9D2B6;
-    
 }
 
 .discovery-container img {
@@ -242,6 +243,18 @@ p {
 
 
 /* Join Page */
+#join-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 20px;
+}
+#memberships-container {
+    border: 3px solid black;
+    padding: 10px;
+    gap: 10px;
+    background-color: #D9D2B6;
+}
 
 form {
     margin: 40px;

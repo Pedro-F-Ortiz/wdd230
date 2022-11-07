@@ -17,7 +17,7 @@
     
 </head>
 
-<body>
+<body id="content">
     <header>
         <nav>
             <div id="logo">
@@ -48,54 +48,140 @@
     </header>
 
     <main>
-        <form action="get" action="thankyou.html">
-            <label for="fname">* First Name:</label>
-            <input type="text" name="firstname" id="fname" required>
+        <div id="join-grid">
+            <form action="get" action="thankyou.html">
+                <label for="fname">* First Name:</label>
+                <input type="text" name="firstname" id="fname" required>
 
-            <label for="lname">* Last Name:</label>
-            <input type="text" name="lastname" id="lname" required>
+                <label for="lname">* Last Name:</label>
+                <input type="text" name="lastname" id="lname" required>
 
-            <label for="title">Business Position Title* (Only letters, spaces and dashes and at least 7 characters):</label>
-            <input type="text" name="title" required-id="title" pattern="[- A-Za-z]+" minlength="7">
+                <label for="email">* Email:</label>
+                <input type="email" name="email" id="email" placeholder="test@testmail.com" required>
 
-            <label for="email">* Email:</label>
-            <input type="email" name="email" id="email" placeholder="test@testmail.com" required>
+                <label for="phone">* Cell Number:</label>
+                <input type="tel" name="cell" id="phone" placeholder="###-###-####" required> 
 
-            <label for="phone">* Cell Number:</label>
-            <input type="tel" name="cell" id="phone" placeholder="###-###-####"> 
+                <label for="business">Business Name: </label>
+                <input type="text" name="business" id="business" required>
 
-            <label id="member">Enter Your Membership </label>
-            <div id="radio">
-                <div class="radio">
-                    <input type="radio" id="one" name="mlevel" value="level1">
-                    <label for="one">NP</label>
+                <label for="title">Business Position Title* (Only letters, spaces and dashes and at least 7 characters):</label>
+                <input type="text" name="title" required-id="title" pattern="[- A-Za-z]+" minlength="7">
+
+                <label id="member">Select Your Membership: </label>
+                <div id="radio">
+                    <div class="radio">
+                        <input type="radio" id="one" name="mlevel" value="level1">
+                        <label for="one">NP</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" id="two" name="mlevel" value="level2">
+                        <label for="two">Bronze</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" id="three" name="mlevel" value="level3">
+                        <label for="three">Silver</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" id="four" name="mlevel" value="level4">
+                        <label for="four">Gold</label>                       
+                    </div>
                 </div>
-                
-                <div class="radio">
-                    <input type="radio" id="two" name="mlevel" value="level2">
-                    <label for="two">Bronze</label>
-                </div>
 
-                <div class="radio">
-                    <input type="radio" id="three" name="mlevel" value="level3">
-                    <label for="three">Silver</label>
-                </div>
+                <label for="message">Business description</label>
+                <textarea name="" id="message" placeholder="your biz description here"> </textarea>
 
-                <div class="radio">
-                    <input type="radio" id="four" name="mlevel" value="level4">
-                    <label for="four">Gold</label>                       
+                <input id="date" type="hidden" name="todaydate">
+
+                <input type="submit" value="Join the Chamber">
+
+                <!-- <div id="memberships-container">
+                    <h1>Membership Levels Benefits:</h1>
+                    <hr style="height:3px;border-width:0;background-color:black">
+                    <div>
+                        <h2>NP Membership</h2>
+                        <ul>
+                            <li>For non profit organizations and there is no fee</li>
+                        </ul>
+                    </div>
+                    <hr style="height:3px;border-width:0;background-color:black">
+                    <div>
+                        <h2>Bronze Membership</h2>
+                        <ul>
+                            <li>15% discount on events</li>
+                            <li>10% discount on advertising</li>
+                            <li>Fee of $50/ month</li>
+                        </ul>
+                    </div>
+                    <hr style="height:3px;border-width:0;background-color:black">
+                    <div>
+                        <h2>Silver Membership</h2>
+                        <ul>
+                            <li>25% discount on events</li>
+                            <li>15% discount on advertising</li>
+                            <li>Free participation in the trade fair</li>
+                            <li>Fee of $100/ month</li>
+                        </ul>
+                    </div>
+                    <hr style="height:3px;border-width:0;background-color:black">
+                    <div>
+                        <h2>Gold Membership</h2>
+                        <ul>
+                            <li>50% discount on events</li>
+                            <li>50% discount on advertising</li>
+                            <li>Free participation in the trade fair</li>
+                            <li>5 free featured ads per year</li>
+                            <li>1 free training per quarter</li>
+                            <li>Fee of $250/ month</li>
+                        </ul>
+                    </div>
+                </div> -->
+            </form>
+            <div id="memberships-container">
+                <h1>Membership Levels Benefits:</h1>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <div>
+                    <h2>NP Membership</h2>
+                    <ul>
+                        <li>For non profit organizations and there is no fee</li>
+                    </ul>
+                </div>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <div>
+                    <h2>Bronze Membership</h2>
+                    <ul>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/ month</li>
+                    </ul>
+                </div>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <div>
+                    <h2>Silver Membership</h2>
+                    <ul>
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/ month</li>
+                    </ul>
+                </div>
+                <hr style="height:3px;border-width:0;background-color:black">
+                <div>
+                    <h2>Gold Membership</h2>
+                    <ul>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free training per quarter</li>
+                        <li>Fee of $250/ month</li>
+                    </ul>
                 </div>
             </div>
-
-            <label for="message">Business description</label>
-            <textarea name="" id="message" placeholder="your biz description here"> </textarea>
-            
-            <input id="date" type="hidden" name="todaydate">
-
-            <input type="submit" value="Join the Chamber">
-    </form>
-
-
+        </div>
     </main>
 
     <footer>
