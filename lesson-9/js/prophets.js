@@ -7,9 +7,9 @@ async function getProphets(requestURL) {
     const response = await fetch(requestURL);
     console.log(response);
     if (response.ok) {
-        const jsonObject = await response.json();
-        console.log(jsonObject);
-        const prophets = jsonObject["prophets"];
+        const jsObject = await response.json();
+        console.log(jsObject);
+        const prophets = jsObject["prophets"];
         console.log(prophets[0].lastname);
         prophets.forEach(displayProphets);
     }
@@ -22,11 +22,12 @@ function displayProphets(item) {
     let h2 = document.createElement("h2");
     let image = document.createElement("img")
 
+    image.setAttribute("src", item.imageurl);
+
     h2.textContent = item.name + " " + item.lastname; 
-    lastname;
-    img.setAttribute("src", item.imageurl);
+    
 
     card.appendChild(h2);
-    card.appendChild(img);
+    card.appendChild(image);
     document.querySelector(".cards").appendChild(card);
 }
