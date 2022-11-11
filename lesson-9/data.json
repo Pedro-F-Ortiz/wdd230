@@ -3,12 +3,9 @@
         {
             "Logo": "https://pedro-f-ortiz.github.io/wdd230/lesson-9/images/mazda.png",
             "Name": "Mazda R Us",
-            "Length": 14,
-            "Order": 1,
             "Address": "123 Cars Avenue, Conroe TX. 77301",
             "Phone": "936-907-8344",
             "Web": "https://www.mazda-r-us.com"
-            
         },
         {
             "Logo": "https://pedro-f-ortiz.github.io/wdd230/lesson-9/images/toyota.jpg",

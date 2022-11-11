@@ -17,7 +17,7 @@ getBusiness(requestURL);
 
 function displayBusiness(item) {
     let card = document.createElement('section')
-    let l = document.createElement('img')
+    let l = document.createElement('img') 
     let n = document.createElement('n')
     let a = document.createElement('a')
     let p = document.createElement('p')
