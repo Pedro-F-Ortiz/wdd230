@@ -1,7 +1,7 @@
 {
     "business": [
         {
-            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/mazda.png",
+            "Logo": "https://pedro-f-ortiz.github.io/wdd230/lesson-9/images/mazda.png",
             "Name": "Mazda R Us",
             "Address": "123 Cars Avenue, Conroe TX. 77301",
             "Phone": "936-907-8344",
@@ -9,7 +9,7 @@
             
         },
         {
-            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/toyota.jpg",
+            "Logo": "https://pedro-f-ortiz.github.io/wdd230/lesson-9/images/toyota.jpg",
             "Name": "Toyota R Us",
             "Address": "456 Automobile Avenue, Conroe TX. 77301",
             "Phone": "936-236-8070",

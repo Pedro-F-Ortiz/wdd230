@@ -1,5 +1,5 @@
 
-const requestURL = "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/data.json"
+const requestURL = "https://pedro-f-ortiz.github.io/wdd230/lesson-9/data.json"
 
 async function getBusiness(requestURL) {
     const response = await fetch(requestURL);
@@ -29,7 +29,7 @@ function displayBusiness(item) {
     a.textContent = item.Address;
     p.textContent = item.Phone;
     w.textContent = item.Web; 
-    
+
     card.appendChild(l);
     card.appendChild(n);
     card.appendChild(a);
