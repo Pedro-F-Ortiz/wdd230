@@ -104,7 +104,7 @@
     color: black;
 }
 td {
-    display: inline;
+    display: table-cell;
 }
 
 }
