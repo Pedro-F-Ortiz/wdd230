@@ -8,7 +8,7 @@ async function getBusiness(requestURL) {
         const jsObject = await response.json();
         console.log(jsObject);
         const business = jsObject["business"];
-        console.log(business[0].Name);
+        console.log(business[0].Logo);
         business.forEach(displayBusiness);
     }
 }
