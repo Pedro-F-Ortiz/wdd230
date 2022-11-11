@@ -15,12 +15,12 @@
     width: 300px;
     margin: 20px;
 }
-h2, h1 {
+h1 {
     color: navy;
     text-align: center;
     font-size: 4em;
 }
-l {
+img {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
 }
