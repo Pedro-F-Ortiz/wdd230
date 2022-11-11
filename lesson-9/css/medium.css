@@ -71,4 +71,8 @@
     color: black;
 }
 
+td {
+    display: block;
+}
+
 }

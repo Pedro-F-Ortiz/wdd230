@@ -103,5 +103,8 @@
     font-size: x-large;
     color: black;
 }
+td {
+    display: inline;
+}
 
 }

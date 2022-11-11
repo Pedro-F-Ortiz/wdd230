@@ -10,6 +10,7 @@ async function getBusiness(requestURL) {
         const business = jsObject["business"];
         console.log(business[0].Logo);
         business.forEach(displayBusiness);
+        business.forEach(displayBusinessTable);
     }
 }
 
@@ -36,24 +37,44 @@ function displayBusiness(item) {
     card.appendChild(p);
     card.appendChild(w);
 
-    // card.style.display = 'none';
-    // card.forEach((item) => {
-    //     item.remove();
-    // }
+ 
 
     document.querySelector('.cards').appendChild(card);
 }
 
+function displayBusinessTable(item) {
+    let card = document.createElement('tr')
+    // let rows = document.createElement('tr')
+    // let l = document.createElement('img') 
+    let n = document.createElement('td')
+    let a = document.createElement('td')
+    let p = document.createElement('td')
+    let w = document.createElement('td')
+
+    // l.setAttribute('src', item.Logo);
+    // l.setAttribute('alt', item.Name);
+    n.textContent = item.Name;
+    a.textContent = item.Address;
+    p.textContent = item.Phone;
+    w.textContent = item.Web; 
+
+    // card.appendChild(l);
+    card.appendChild(n);
+    card.appendChild(a);
+    card.appendChild(p);
+    card.appendChild(w);
+
+ 
+
+    document.querySelector('tbody').appendChild(card);
+}
 
 // Grid/ List buttons
-
-
-
-// $('button').on('click',function(e) {
-//     if ($(this).hasClass('grid')) {
-//         $('#container ul').removeClass('list').addClass('grid');
-//     }
-//     else if($(this).hasClass('list')) {
-//         $('#container ul').removeClass('grid').addClass('list');
-//     }
-// });
+function displaygrid() {
+    document.querySelector(".cards").style.display = "flex"
+    document.querySelector("tbody").style.display = "none"
+}
+function displaylist() {
+    document.querySelector(".cards").style.display = "none"
+    document.querySelector("tbody").style.display = "block"
+}

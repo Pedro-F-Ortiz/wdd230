@@ -301,3 +301,7 @@ textarea {
 #radio label, #radio input {
     display: inline;
 }
+
+td {
+    display: block;
+}
