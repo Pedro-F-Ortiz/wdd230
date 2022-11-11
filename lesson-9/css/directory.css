@@ -37,3 +37,10 @@ img {
     border-radius: 25%;
     box-shadow: 5px 10px 8px 5px #888888;
 }
+
+
+
+
+.grid, .list {
+    padding:15px;
+}
