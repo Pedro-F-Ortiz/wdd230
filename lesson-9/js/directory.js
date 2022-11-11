@@ -18,10 +18,10 @@ getBusiness(requestURL);
 function displayBusiness(item) {
     let card = document.createElement('section')
     let l = document.createElement('img') 
-    let n = document.createElement('n')
-    let a = document.createElement('a')
+    let n = document.createElement('h2')
+    let a = document.createElement('p')
     let p = document.createElement('p')
-    let w = document.createElement('w')
+    let w = document.createElement('p')
 
     l.setAttribute('src', item.Logo);
     l.setAttribute('alt', item.Name);
