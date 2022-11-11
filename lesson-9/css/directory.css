@@ -9,7 +9,7 @@
 
 .cards section {
     border: 1px solid navy;
-    background-color: lightblue;
+    background-color: #D9D2B6;
     padding: 30px;
     text-align: center;
     width: 300px;
@@ -18,8 +18,9 @@
 h2, h1 {
     color: navy;
     text-align: center;
+    font-size: 4em;
 }
-img {
+l {
     width: 90%;
     box-shadow: 5px 10px 8px 5px #888888;
 }
