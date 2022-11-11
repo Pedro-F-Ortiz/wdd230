@@ -33,7 +33,7 @@ h2 {
 p {
     font-family: "lora";
 }
-img {
+.cards img {
     border-radius: 25%;
     box-shadow: 5px 10px 8px 5px #888888;
 }
