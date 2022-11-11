@@ -18,11 +18,12 @@ async function getProphets(requestURL) {
 getProphets(requestURL);
 
 function displayProphets(item) {
-    let card = document.createElement("section");
-    let h2 = document.createElement("h2");
+    let card = document.createElement("section")
+    let h2 = document.createElement("h2")
     let dob = document.createElement('p')
     let pob = document.createElement('p')
     let image = document.createElement("img")
+    
 
     
 

@@ -1,88 +1,90 @@
 {
     "business": [
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/mazda.png",
+            "Name": "Mazda R Us",
+            "Address": "123 Cars Avenue, Conroe TX. 77301",
+            "Phone": "936-907-8344",
+            "Web": "https://www.mazda-r-us.com"
+            
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/toyota.jpg",
+            "Name": "Toyota R Us",
+            "Address": "456 Automobile Avenue, Conroe TX. 77301",
+            "Phone": "936-236-8070",
+            "Web": "https://www.toyota-r-us.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/jiffy.png",
+            "Name": "Jiffy Lube",
+            "Address": "789 Oil Pan Street, Conroe TX. 77301",
+            "Phone": "936-284-9022",
+            "Web": "https://www.jiffy-lube.com"
+            
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/car-wash.jpg",
+            "Name": "Conroe's Car Wash",
+            "Address": "741 Washing Street, Conroe TX. 77301",
+            "Phone": "936-823-7541",
+            "Web": "https://www.c-wash.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/bbq.jpg",
+            "Name": "Mike's bbq",
+            "Address": "852 Delicious Street, Conroe TX. 77301",
+            "Phone": "936-862-5008",
+            "Web": "https://www.mikes-bbq.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/museum.png",
+            "Name": "Museum of Conroe",
+            "Address": "963 Learning Avenue, Conroe TX. 77301",
+            "Phone": "936-861-5808",
+            "Web": "https://www.museum-of-conroe.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/library.png",
+            "Name": "Library of Conroe",
+            "Address": "753 Research Drive, Conroe TX. 77301",
+            "Phone": "936-490-7876",
+            "Web": "https://www.library-of-conroe.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/byui.png",
+            "Name": "Brigham Young University - Idaho",
+            "Address": "951 University Drive, Conroe TX. 77301",
+            "Phone": "936-702-6317",
+            "Web": "https://www.byui.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/lds.jpg",
+            "Name": "The Church of Jesus Christ of Latter-Day Saints",
+            "Address": "167 Gospel Drive, Conroe TX. 77301",
+            "Phone": "936-745-9213",
+            "Web": "https://www.ldschurch.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/target.png",
+            "Name": "Target",
+            "Address": "943 Shopping Street, Conroe TX. 77301",
+            "Phone": "936-234-1523",
+            "Web": "https://www.target-store.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/walmart.png",
+            "Name": "Wal-mart",
+            "Address": "829 Shopping Street, Conroe TX. 77301",
+            "Phone": "936-624-9658",
+            "Web": "https://www.walmart-store.com"
         },
         {
-            "Business Name": "#",
-            "Address": "#",
-            "Phone": "#",
-            "Logo": "#",
-            "Web Link": "#"
+            "Logo": "/Users/el_piqui/Library/CloudStorage/OneDrive-BYU-Idaho/College Classes/2022/3. Fall/wdd230/lesson-9/images/apple.png",
+            "Name": "Apple Retail Store",
+            "Address": "367 Apple Drive, Conroe TX. 77301",
+            "Phone": "936-686-0871",
+            "Web": "https://www.apple-retail.com"
         }
     ]
 }
