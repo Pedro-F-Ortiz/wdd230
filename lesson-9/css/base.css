@@ -305,3 +305,6 @@ textarea {
 td {
     display: block;
 }
+.dark {
+    background-color: #D9D2B6;
+}

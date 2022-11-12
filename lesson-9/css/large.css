@@ -106,5 +106,7 @@
 td {
     display: table-cell;
 }
-
+.dark {
+    background-color: #D9D2B6;
+}                      
 }
