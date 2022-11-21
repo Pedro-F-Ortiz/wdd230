@@ -68,22 +68,27 @@ let io = new IntersectionObserver (
 
 // Last visited time stamp
 if (!localStorage.getItem('lastvisit')) {
+    console.log("hello");
     localStorage.setItem('lastvisit', Date.now());
+    console.log("Hi");
     document.getElementById('diff').textContent ='This is your 1st visit';
+    console.log("bye");
 }
 else {
+    console.log("No");
     setStyles();
+    console.log("YES");
 }
 
 function setStyles() {
     let prevDate = localStorage.getItem('lastvisit');
-    let currDate = new Date('2022-10-27');
+    let currDate = new Date();
 
     let difference = currDate - prevDate;
         console.log(difference);
         let daysDifference = Math.floor(difference/1000/60/60/24);
 
-    document.getElementById('#diff').textContent = daysDifference;
+    document.getElementById('diff').textContent = daysDifference;
 
     localStorage.setItem('lastvisit', Date.now());
 }
