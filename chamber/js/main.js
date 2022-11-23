@@ -68,16 +68,11 @@ let io = new IntersectionObserver (
 
 // Last visited time stamp
 if (!localStorage.getItem('lastvisit')) {
-    console.log("hello");
     localStorage.setItem('lastvisit', Date.now());
-    console.log("Hi");
     document.getElementById('diff').textContent ='This is your 1st visit';
-    console.log("bye");
 }
 else {
-    console.log("No");
     setStyles();
-    console.log("YES");
 }
 
 function setStyles() {

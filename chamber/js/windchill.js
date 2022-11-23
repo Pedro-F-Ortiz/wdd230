@@ -11,7 +11,7 @@ const getWeather = async () => {
 getWeather();
 
 
-// const temp = document.querySelector("#temp").textContent;
+const temp = document.querySelector("#temp").textContent;
 const windspeed = document.querySelector("#wind-speed").textContent;
 
 if (temp < 50 && windspeed > 3 ) {
