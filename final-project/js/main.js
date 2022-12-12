@@ -11,3 +11,12 @@ current_date_element.innerHTML = date;
 let year = date.getFullYear();
 document.querySelector(".year").textContent = year;
 
+// Nav Button js
+hamburgerBtn = document.querySelector("#menu-btn");
+
+hamburgerBtn.addEventListener("click", ()=> {
+    navLinks = document.querySelectorAll(".links"); 
+    navLinks.forEach(link => {
+        link.classList.toggle("show-nav");
+    })
+})
