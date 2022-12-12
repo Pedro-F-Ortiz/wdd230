@@ -4,14 +4,14 @@
         {
             "Dish": "https://pedro-f-ortiz.github.io/wdd230/final-project/images/breakfast-tacos.jpg",
             "Name": "Breakfast tacos",
-            "Ingredients": "Bacon & Eggs, Ham & Eggs, Eggs & Cheese, Eggs & Beans",
-            "Price": "$2.50"
+            "Ingredients": "Ingredients: Bacon & Eggs, Ham & Eggs, Eggs & Cheese, Eggs & Beans",
+            "Price": "Price: $2.50"
         },
         {
             "Dish": "https://pedro-f-ortiz.github.io/wdd230/final-project/images/chilaquiles.jpg",
             "Name": "Chilaquiles",
-            "Ingredients": "Cooked tortilla chips on tomatoe sauce with beans, ham, sunny side or scramble eggs, and cheese",
-            "Price": "$9.50"
+            "Ingredients": "Ingredients: Cooked tortilla chips on tomatoe sauce with beans, ham, sunny side or scramble eggs, and cheese",
+            "Price": "Price: $9.50"
         }
     ],
 
@@ -19,14 +19,14 @@
         {
             "Dish":"https://pedro-f-ortiz.github.io/wdd230/final-project/images/burrito.jpg",
             "Name": "Burrito",
-            "Ingredients": "Meat: Fajita, Chicken, Asada, beans, sour cream, lettuce, tomatoes, cheese, wrapped in a large flour tortilla",
-            "Price": "$7.50"
+            "Ingredients": "Ingredients: Meat: Fajita, Chicken, Asada, beans, sour cream, lettuce, tomatoes, cheese, wrapped in a large flour tortilla",
+            "Price": "Price: $7.50"
         },
         {
             "Dish":"https://pedro-f-ortiz.github.io/wdd230/final-project/images/bistec-ranchero.jpg",
             "Name": "Bistec Ranchero",
-            "Ingredients": "Hand-made Corn or Flour tortillas, Fajita meat cooked with green peppers, onions. Side of Rice and Beans,  lettuce, tomatoe, and home made Guacamole",
-            "Price": "$6.50"
+            "Ingredients": "Ingredients: Hand-made Corn or Flour tortillas, Fajita meat cooked with green peppers, onions. Side of Rice and Beans,  lettuce, tomatoe, and home made Guacamole",
+            "Price": "Price: $6.50"
         }
     ]
 }
