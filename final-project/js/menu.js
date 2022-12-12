@@ -23,7 +23,7 @@ function displayBreakfast(item) {
     let ing = document.createElement("p")
     let price = document.createElement("p")
 
-    dish.setAttribute("src", item.imageurl);
+    dish.setAttribute("src", item.Dish);
     dish.setAttribute("alt", item.Name); 
     name.textContent = item.Name;
     ing.textContent = item.Ingredients;
@@ -59,7 +59,7 @@ function displayLunch(item) {
     let ing = document.createElement("p")
     let price = document.createElement("p")
 
-    dish.setAttribute("src", item.imageurl);
+    dish.setAttribute("src", item.Dish);
     dish.setAttribute("alt", item.Name); 
     name.textContent = item.Name;
     ing.textContent = item.Ingredients;
