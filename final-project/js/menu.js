@@ -23,7 +23,7 @@ function displayBreakfast(item) {
     let ing = document.createElement("p")
     let price = document.createElement("p")
 
-    dish.setAttribute("src", item.Dish);
+    dish.setAttribute("src", item.imageurl);
     dish.setAttribute("alt", item.Name); 
     name.textContent = item.Name;
     ing.textContent = item.Ingredients;
@@ -34,5 +34,5 @@ function displayBreakfast(item) {
     card.appendChild(ing);
     card.appendChild(price);
 
-    document.querySelector(".cards").appendChild(card);
+    document.querySelector(".breakfast-cards").appendChild(card);
 }
