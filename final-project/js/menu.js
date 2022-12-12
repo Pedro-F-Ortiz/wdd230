@@ -9,8 +9,7 @@ async function getBreakfast(requestURL) {
         const jsObject = await response.json();
         console.log(jsObject);
         const breakfast = jsObject["breakfast"];
-        console.log(breakfast[0].Logo);
-        breakfast.forEach(displayBreakfast);
+        console.log(breakfast[0].name);
         breakfast.forEach(displayBreakfast);
     }
 }
@@ -19,36 +18,21 @@ getBreakfast(requestURL);
 
 function displayBreakfast(item) {
     let card = document.createElement("section")
-    let d = document.createElement("img")
-    let n = document.createElement("h2)")
-    let i = document.createElement("p")
-    let p = document.createElement("p")
+    let dish = document.createElement("img")
+    let name = document.createElement("h2")
+    let ing = document.createElement("p")
+    let price = document.createElement("p")
 
-    d.setAttribute("src", item.Dish);
-    d.setAttribute("alt", item.Name);
-    n.textContent = item.Name;
-    i.textContent = item.Ingredients;
-    p.textContent = item.Price;
+    dish.setAttribute("src", item.Dish);
+    dish.setAttribute("alt", item.Name); 
+    name.textContent = item.Name;
+    ing.textContent = item.Ingredients;
+    price.textContent = item.Price;
 
-    card.appendChild(d);
-    card.appendChild(n);
-    card.appendChild(i);
-    card.appendChild(p);
+    card.appendChild(dish);
+    card.appendChild(name);
+    card.appendChild(ing);
+    card.appendChild(price);
 
     document.querySelector(".cards").appendChild(card);
 }
-
-
-
-// async function getBusiness(requestURL) {
-//     const response = await fetch(requestURL);
-//     console.log(response);
-//     if (response.ok) {
-//         const jsObject = await response.json();
-//         console.log(jsObject);
-//         const business = jsObject["Lunch"];
-//         console.log(business[0].Logo);
-//         business.forEach(displayBusiness);
-//         business.forEach(displayBusinessTable);
-//     }
-// }
