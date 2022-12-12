@@ -1,0 +1,18 @@
+
+{
+    "breakfast": [
+        {
+            "Dish": "https://pedro-f-ortiz.github.io/wdd230/final-project/images/breakfast-tacos.jpg",
+            "Name": "Breakfast tacos",
+            "Ingredients": "Bacon & Eggs, Ham & Eggs, Eggs & Cheese, Eggs & Beans",
+            "Price": "$2.50"
+        },
+        {
+            "Dish": "https://pedro-f-ortiz.github.io/wdd230/final-project/images/chilaquiles.jpg",
+            "Name": "Chilaquiles",
+            "Ingredients": "Cooked tortilla chips on tomatoe sauce with beans, ham, sunny side or scramble eggs, and cheese",
+            "Price": "$9.50"
+        }
+    ]
+}
+

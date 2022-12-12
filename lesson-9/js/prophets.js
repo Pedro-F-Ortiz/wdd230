@@ -1,7 +1,7 @@
 
 // ASYNC AWAIT Fetch
 
-const requestURL = "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json"
+const requestURL = "https://pedro-f-ortiz.github.io/wdd230/lesson-9/latter-day-prophets.json"
 
 async function getProphets(requestURL) {
     const response = await fetch(requestURL);
