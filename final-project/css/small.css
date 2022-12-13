@@ -71,6 +71,33 @@ nav ul li a {
 }
 
 
+/* Main CSS */
+#welcome-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#breakfast {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: #84A98C;
+    padding: 40px;
+}
+
+
+
+
+
+/* Footer CSS */
+#footer-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    align-items: center;
+}
 footer {
     background-color: #84A98C;
     padding: 40px;

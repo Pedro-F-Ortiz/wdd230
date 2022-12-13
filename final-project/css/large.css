@@ -29,4 +29,19 @@
         align-self: center;
         gap: 20px;
     }
+
+
+
+/* Main CSS */
+#welcome-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #84A98C;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+
 }
