@@ -77,14 +77,14 @@ nav ul li a {
     grid-template-columns: 1fr 1fr;
 }
 
-#breakfast {
+#breakfast, #lunch {
     display: grid;
     grid-template-columns: 1fr;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     background-color: #84A98C;
-    padding: 40px;
+    padding: 10px;
 }
 
 

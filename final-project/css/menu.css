@@ -1,12 +1,13 @@
-.breakfast-cards {
+.breakfast-cards, .lunch-cards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
 }
-.breakfast-cards section {
-    border: 1px solid navy;
-    background-color: #D9D2B6;
+.breakfast-cards section, .lunch-cards section {
+    border: 2px solid #354F52;
+    box-shadow: 10em;
+    background-color: rgb(216, 196, 146);
     padding: 30px;
     text-align: center;
     width: 300px;
