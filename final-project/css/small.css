@@ -20,11 +20,7 @@ nav {
     width: 100px;
 }
 #logo img {
-    /* margin: 5px; */
-    /* padding: 20px; */
-    /* border: 3px solid black; */
     border-radius: 50px;
-    /* background-color: #D9D2B6; */
 }
 #nav-links {
     width: 100%;
@@ -73,8 +69,11 @@ nav ul li a {
 
 /* Main CSS */
 #welcome-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #84A98C;
+        margin: 20px;
+        padding: 20px;
 }
 
 #breakfast, #lunch {
@@ -124,6 +123,22 @@ nav ul li a {
     width: 0 auto;
     margin: 30px;
 }
+
+/* Contact Page */
+#contact {
+    background-color: #84A98C;
+}
+#contact-card {
+    border: 2px solid #354F52;
+    background-color: rgb(216, 196, 146);
+    text-align: center;
+    width: 0 auto;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
 
 /* Footer */
 #footer-grid {

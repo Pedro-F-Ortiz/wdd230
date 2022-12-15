@@ -1,0 +1,57 @@
+@media screen and (min-width: 550px) {
+    #menu-btn {
+        font-size: 3em;
+        width: 100px;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #nav-links {
+        width: 100%;
+    }
+    #nav-links a:hover {
+        background-color: rgb(216, 196, 146);
+        border: 3px solid #CAD2C5;
+    }
+    .links {
+        display: none;
+        list-style: none;
+        text-align: center;
+        background: #52796F;
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: 30px 0;
+        width: 100%;
+        font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        text-decoration: none;
+        color: black;
+        border: 3px solid black;
+    }
+    .show-nav {
+        display: block;
+    }
+    #social {
+        display: flex;
+        align-self: center;
+        gap: 20px;
+    }
+
+    /* Main CSS */
+#welcome-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #84A98C;
+    margin: 20px;
+    padding: 20px;
+}
+#breakfast {
+    margin: 20px;
+}
+#lunch {
+    margin: 20px;
+}
+}
