@@ -19,7 +19,7 @@ nav {
     font-size: 3em;
     width: 100px;
 }
-#logo img {
+.logo img {
     border-radius: 50px;
 }
 #nav-links {
