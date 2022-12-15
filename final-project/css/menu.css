@@ -6,7 +6,6 @@
 }
 .breakfast-cards section, .lunch-cards section {
     border: 2px solid #354F52;
-    box-shadow: 10em;
     background-color: rgb(216, 196, 146);
     padding: 30px;
     text-align: center;
