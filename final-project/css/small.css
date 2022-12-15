@@ -86,6 +86,10 @@ nav ul li a {
     padding: 10px;
 }
 
+#welcome-section p {
+    color:  black;
+}
+
 /* Back to top CSS */
 #myBtn {
     display: none; /* Hidden by default */
