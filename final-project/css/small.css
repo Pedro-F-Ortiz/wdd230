@@ -149,6 +149,9 @@ footer {
     background-color: #84A98C;
     padding: 40px;
 }
+footer p {
+    color: #354F52;
+}
 
 /* Feedback */
 #fcf-form {
